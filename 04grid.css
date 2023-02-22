@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+
+    /*alineacion horizontal*/
+    justify-items: center;
+
+    /*alineacion vertical*/
+    align-items: center;
+
+}
+.grid .elemento{
+    background: #8a3bb5;
+    justify-self: start;
+}
